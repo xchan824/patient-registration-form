@@ -1,0 +1,1 @@
+Please use admin as 'username' and password as 'password'
