@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: darkblue;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+small {
+    color: red;
+}
+
+
+.invalid-input {
+    border-color: red;
+}
+
+#username, #password {
+    border-radius: 10px;
+    font-size: 20px;
+    height: 20px;
+}
+
+#login-btn {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form {
+    background-color: lightblue;
+    display: grid;
+    padding: 10px;
+    border-radius: 10px;
+    grid-template-columns: 300px;
+    grid-template-rows: 85px 85px;
+}
+
+.form-field-1 {
+    display: grid;
+    justify-self: center;
+    grid-template-columns: 300px;
+    grid-template-rows: 30px 30px;
+}
+
+.form-field-2 {
+    display: grid;
+    justify-self: center;
+    grid-template-columns: 300px;
+    grid-template-rows: 30px 30px;
+}
+
+.form-field-3 {
+    justify-self: center;
+    align-items: center;
+}

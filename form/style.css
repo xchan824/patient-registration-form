@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.invalid-input {
+    border-color: red;
+}
+
+small {
+    color: red;
+}
+
+textarea {
+    resize: none;
+}
+
+.container {
+    display: grid;
+    padding: 10px;
+    border-radius: 10px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 50px 50px 50px 100px 50px 100px 200px;
+    gap: 25px;
+    background-color: lightblue;
+    
+    grid-template-areas: 
+    "info info info"
+    "firstname middlename lastname"
+    "address address address"
+    "mobile birthdate gender"
+    "info-2 info-2 info-2"
+    "history current medication"
+    ". buttons .";
+}
+
+.text-1 {
+    grid-area: info;
+}
+
+.text-2 {
+    grid-area: info-2;
+}
+
+.form-field-1 {
+    display: flex;
+    flex-direction: column;
+    grid-area: firstname;
+}
+
+.form-field-2 {
+    display: flex;
+    flex-direction: column;
+    grid-area: middlename;
+}
+
+.form-field-3 {
+    display: flex;
+    flex-direction: column;
+    grid-area: lastname;
+}
+
+.form-field-4 {
+    display: flex;
+    flex-direction: column;
+    grid-area: address;
+}
+
+.form-field-5 {
+    display: flex;
+    flex-direction: column;
+    grid-area: mobile;
+}
+
+.form-field-6 {
+    grid-area: birthdate;
+}
+
+.form-field-7 {
+    grid-area: gender;
+}
+
+.form-field-8 {
+    grid-area: history;
+}
+
+.form-field-9 {
+    grid-area: current;
+}
+
+.form-field-10 {
+    grid-area: medication;
+}
+
+.form-field-11 {
+    margin-bottom: 20px;
+    grid-area: buttons;
+    place-self: end center;
+}
+
+
