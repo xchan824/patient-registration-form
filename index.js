@@ -63,6 +63,6 @@ const checkPassword = () => {
 const login = () => {
     if ((username.value == 'admin') && (password.value == 'password')) {
         alert('Login successful');
-        window.location.href="/form/form.html";
+        window.location.href="form.html";
     }
 }
